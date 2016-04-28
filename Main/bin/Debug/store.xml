@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+	<Task>
+		<Status>2</Status>
+		<Period>0</Period>
+		<Time>19.02.2016 17:30:00</Time>
+		<File>D:\Sublime Text 3\sublime_text.exe</File>
+		<DayOfWeeks>
+			<Monday>0</Monday>
+			<Tuesday>1</Tuesday>
+			<Wednesday>0</Wednesday>
+			<Thursday>1</Thursday>
+			<Friday>0</Friday>
+			<Saturday>0</Saturday>
+			<Sunday>0</Sunday>
+		</DayOfWeeks>
+	</Task>
+</Tasks>
