@@ -1,0 +1,14 @@
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Presenter.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Presenter.pdb
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Model.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\View.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Model.pdb
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\View.pdb
+E:\Projects\VisualStudio\TaskScheduler\Presenter\obj\Debug\Presenter.csprojResolveAssemblyReference.cache
+E:\Projects\VisualStudio\TaskScheduler\Presenter\obj\Debug\Presenter.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\obj\Debug\Presenter.pdb
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Microsoft.Expression.Markup.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Microsoft.Expression.Utility.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\en\Microsoft.Expression.Markup.resources.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\en\Microsoft.Expression.Utility.resources.dll
+E:\Projects\VisualStudio\TaskScheduler\Presenter\bin\Debug\Xceed.Wpf.Toolkit.dll
