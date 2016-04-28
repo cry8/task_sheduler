@@ -1,0 +1,72 @@
+﻿<Window x:Class="View.TaskBrowser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="Настройки" Height="300" Width="500"
+        ResizeMode="NoResize">
+    <Grid Background="#7D7D7D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Выполнить: </Label>
+        <TextBox x:Name="EXECPath" Grid.Row="1" Margin="10" MaxLines="1" TextWrapping="Wrap"></TextBox>
+        <Button Grid.Row="2" HorizontalAlignment="Right" Margin="10" Padding="5" Click="Button_Click">Обзор ...</Button>
+        <Grid Grid.Row="3" x:Name="DateGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">Назначить задание</Label>
+            <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">Время начала</Label>
+            <Label Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center">Дата начала</Label>
+            <ComboBox x:Name="PeriodBox" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" SelectionChanged="PeriodBox_SelectionChanged">
+                <TextBlock x:Name="EVERYDAY">Ежедневно</TextBlock>
+                <TextBlock x:Name="EVERYWEEK">Еженедельно</TextBlock>
+                <TextBlock x:Name="EVERYMONTH">Ежемесячно</TextBlock>
+                <TextBlock x:Name="ONCE">Однократно</TextBlock>
+            </ComboBox>
+            <xctk:TimePicker Grid.Row="1" Grid.Column="1" x:Name="TimePicker" Background="#333333" Foreground="#FFFFFF"/>
+            <DatePicker x:Name="BeginBox" Grid.Row="1" Grid.Column="2" SelectedDateFormat="Short" Background="#333333">
+            </DatePicker>
+        </Grid>
+        <GroupBox x:Name="WeekBox" Header="Расписание по неделям" Grid.Row="4" Padding="5" IsEnabled="false">
+            <Grid VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <CheckBox Grid.Column="0" x:Name="Monday">Пн</CheckBox>
+                <CheckBox Grid.Column="1" x:Name="Tuesday">Вт</CheckBox>
+                <CheckBox Grid.Column="2" x:Name="Wednesday">Ср</CheckBox>
+                <CheckBox Grid.Column="3" x:Name="Thursday">Чт</CheckBox>
+                <CheckBox Grid.Column="4" x:Name="Friday">Пт</CheckBox>
+                <CheckBox Grid.Column="5" x:Name="Saturday">Сб</CheckBox>
+                <CheckBox Grid.Column="6" x:Name="Sunday">Вс</CheckBox>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Margin="10" Padding="5" Width="75" Click="Button_Click_1">ОК</Button>
+            <Button Grid.Column="1" Margin="10" Padding="5" Width="75" Click="Button_Click_2">Отмена</Button>
+        </Grid>
+    </Grid>
+</Window>
