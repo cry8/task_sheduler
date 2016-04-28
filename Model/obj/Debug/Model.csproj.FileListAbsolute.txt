@@ -1,0 +1,5 @@
+E:\Projects\VisualStudio\TaskScheduler\Model\bin\Debug\Model.dll
+E:\Projects\VisualStudio\TaskScheduler\Model\bin\Debug\Model.pdb
+E:\Projects\VisualStudio\TaskScheduler\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Projects\VisualStudio\TaskScheduler\Model\obj\Debug\Model.dll
+E:\Projects\VisualStudio\TaskScheduler\Model\obj\Debug\Model.pdb
